@@ -1,0 +1,29 @@
+{
+    "name": "twidrpg",
+    "title": "The Witch is Dead",
+    "description": "This is the unofficial Foundry System for The Witch Is Dead RPG by gshowitt.",
+    "version": "0.0.1",
+    "author": "Tavo5691",
+    "minimumCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "9",
+    "scripts": [],
+    "esmodules": ["twidrpg.js"],
+    "styles": ["twidrpg.css"],
+    "packs": [],
+    "dependencies": [],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        },
+        {
+            "lang": "es",
+            "name": "Español",
+            "path": "lang/es.json"
+        }
+    ],
+    "url": "https://github.com/Tavo5691/twidrpg",
+    "manifest": "placeholder",
+    "download": "placeholder"
+}

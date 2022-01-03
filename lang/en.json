@@ -1,0 +1,29 @@
+{
+    "twidrpg": {
+        "sheet": {
+            "name": "Name",
+            "species": "Species",
+            "traits": {
+                "clever": "Clever",
+                "fierce": "Fierce",
+                "sly": "Sly",
+                "quick": "Quick"
+            },
+            "danger": "Current Danger",
+            "spell": "Magic Spell You Know",
+            "notes": "Notes, Revenge Plans, Vitriol"
+        },
+        "species": {
+            "fox": "Fox",
+            "cat": "Cat",
+            "toad": "Toad",
+            "spider": "Spider",
+            "owl": "Owl",
+            "hare": "Hare",
+            "magpie": "Magpie",
+            "crow": "Crow",
+            "dog": "Dog",
+            "rat": "Rat"
+        }
+    }
+}

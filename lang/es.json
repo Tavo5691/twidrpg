@@ -1,0 +1,29 @@
+{
+    "twidrpg": {
+        "sheet": {
+            "name": "Nombre",
+            "species": "Especie",
+            "traits": {
+                "clever": "Inteligencia",
+                "fierce": "Ferocidad",
+                "sly": "Astucia",
+                "quick": "Rapidez"
+            },
+            "danger": "Peligro Actual",
+            "spell": "Hechizo Que Conoces",
+            "notes": "Notas, Planes de Venganza, Hostilidad"
+        },
+        "species": {
+            "fox": "Zorro",
+            "cat": "Gato",
+            "toad": "Rana",
+            "spider": "Araña",
+            "owl": "Búho",
+            "hare": "Liebre",
+            "magpie": "Urraca",
+            "crow": "Cuervo",
+            "dog": "Perro",
+            "rat": "Rata"
+        }
+    }
+}

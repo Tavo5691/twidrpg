@@ -1,0 +1,12 @@
+{
+    "Actor": {
+        "types": ["familiar"],
+        "familiar": {
+            "species": "Animal species",
+            "danger": 0,
+            "spell": "Spell Name",
+            "notes": "Notes"
+        }
+    },
+    "Item": {}
+}
