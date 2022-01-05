@@ -12,3 +12,24 @@ twidrpg.species = {
     dog: "twidrpg.species.dog",
     rat: "twidrpg.species.rat"
 }
+
+twidrpg.tables = {
+    spells: {
+       name: "Spells",
+       img: "icons/svg/eye.svg",
+       description: "Your witch taught you a spell",
+       results: [
+           "Unseen Hand",
+           "Conjure Light",
+           "Speak Human",
+           "Lock/Unlock, Open/Close",
+           "Conjure Dinner",
+           "Make Flame",
+           "Tidy, Clean and Mend",
+           "Plant Growth",
+           "Distract/Confuse",
+           "Make Book Read Itself Aloud"
+       ],
+       formula: "1d10"
+    }
+};
