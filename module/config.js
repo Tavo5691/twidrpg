@@ -13,10 +13,10 @@ twidrpg.species = {
     rat: "twidrpg.species.rat"
 }
 
-twidrpg.tables = {
-    spells: {
+twidrpg.tables = [
+    {
        name: "Spells",
-       img: "icons/svg/eye.svg",
+       img: "icons/svg/book.svg",
        description: "Your witch taught you a spell",
        results: [
            "Unseen Hand",
@@ -31,5 +31,23 @@ twidrpg.tables = {
            "Make Book Read Itself Aloud"
        ],
        formula: "1d10"
-    }
-};
+    },
+    {
+        name: "Species",
+        img: "icons/svg/eye.svg",
+        description: "Roll a d10 to see what you are",
+        results: [
+            "Fox",
+            "Cat",
+            "Toad",
+            "Spider",
+            "Owl",
+            "Hare",
+            "Magpie",
+            "Crow",
+            "Dog",
+            "Rat"
+        ],
+        formula: "1d10"
+     }
+];
