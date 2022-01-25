@@ -1,36 +1,36 @@
-export const initializeRollTables = (loadedTables, tablesFromConfiguration) => {
-    const missingTables = filterOutAlreadyLoadedTables(loadedTables, tablesFromConfiguration);
+import { twidrpg } from "../config.js"
 
-    missingTables.forEach(table => {
+export const initializeRollTables = () => {
+    clearRollTableDirectory();
+    const tablesFromConfiguration = twidrpg.tables;
+
+    tablesFromConfiguration.forEach(table => {
         let results = buildPossibleResults(table);
     
         let tableData = {
-            name: table.name,
+            name: game.i18n.localize(table.name),
             img: table.img,
-            description: table.description,
+            description: game.i18n.localize(table.description),
             results,
-            formula: table.formula
+            formula: table.formula,
+            displayRoll: table.displayRoll
         };
     
         RollTable.create(tableData);
     });
 };
 
-const filterOutAlreadyLoadedTables = (loadedTables, tablesFromConfiguration) => {
-    const loadedTablesNames = Object.values(loadedTables)[0][0].documents.map(table => {
-        return table.data.name
-    });
+const clearRollTableDirectory = () => {
+    const tables = game.tables.contents;
 
-    return tablesFromConfiguration.filter(table => {
-        return !loadedTablesNames.includes(table.name);
-    });
-};
+    RollTable.deleteDocuments(tables.map(table => table.id));
+}
 
 const buildPossibleResults = (table) => {
-    return table.results.map((element, index) => {
+    return table.results.map((text, index) => {
         return {
             type: 0,
-            text: element,
+            text: game.i18n.localize(text),
             weight: 1,
             range: [
                 index + 1,

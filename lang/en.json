@@ -24,6 +24,76 @@
             "crow": "Crow",
             "dog": "Dog",
             "rat": "Rat"
+        },
+        "spells": {
+            "hand": "Unseen Hand",
+            "light": "Conjure Light",
+            "speak": "Speak Human",
+            "lock": "Lock/Unlock, Open/Close",
+            "dinner": "Conjure Dinner",
+            "flame": "Make Flame",
+            "tidy": "Tidy, Clean and Mend",
+            "plant": "Plant Growth",
+            "distract": "Distract/Confuse",
+            "book": "Make Book Read Itself Aloud"
+        },
+        "tables": {
+            "spells": {
+                "name": "Spells",
+                "description": "Your witch taught you a spell"
+            },
+            "species": {
+                "name": "Species",
+                "description": "Roll a d10 to see what you are"
+            },
+            "village": {
+                "name": "Village",
+                "description": "The village is... (roll twice)",
+                "results": {
+                    "one": "Under the thumb of the baron",
+                    "two": "Filled with cheery gnomes",
+                    "three": "Controlled by a creepy cult",
+                    "four": "Devoutly religious",
+                    "five": "Incredibly superstitious",
+                    "six": "At war with the forest tribes",
+                    "seven": "Built around a wizard college",
+                    "eight": "Full of hardy mining folk",
+                    "nine": "Shady and dangerous",
+                    "ten": "Oppressively Perfect"
+                }
+            },
+            "witchHunter": {
+                "name": "Witch-Hunter",
+                "description": "The Witch-Hunter is...",
+                "results": {
+                    "one": "Armoured and tough",
+                    "two": "Wizened and wise",
+                    "three": "Drunk and violent",
+                    "four": "Pious and aggressive",
+                    "five": "Guarded and cowardly",
+                    "six": "Magical and jealous",
+                    "seven": "Clever and cruel",
+                    "eight": "Duplicitous and hidden",
+                    "nine": "Jolly and well-meaning",
+                    "ten": "Headstrong and wild"
+                }
+            },
+            "twist": {
+                "name": "Twist",
+                "description": "But here's the twist... (GM, Roll, but keep it a secret",
+                "results": {
+                    "one": "The village are in on it",
+                    "two": "A rival witch set her up",
+                    "three": "The Witch-Hunter didn't do it",
+                    "four": "The Witch-Hunter is waiting for you",
+                    "five": "The village folk are having a festival",
+                    "six": "The Witch-Hunter died and is being buried",
+                    "seven": "There are two (rival) Witch-Hunters in Town",
+                    "eight": "The Village is abandoned",
+                    "nine": "The Witch-Hunter has dragged a suspect up for interrogation",
+                    "ten": "The Village hates him"
+                }
+            }
         }
     }
 }

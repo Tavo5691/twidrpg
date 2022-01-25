@@ -12,8 +12,5 @@ Hooks.once("init", () => {
 });
 
 Hooks.once("ready", () => {
-    const loadedTables = game.tables;
-    const tablesFromConfiguration = twidrpg.tables;
-
-    initializeRollTables(loadedTables, tablesFromConfiguration);
+    initializeRollTables();
 });
